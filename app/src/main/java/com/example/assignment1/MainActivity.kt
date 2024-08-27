@@ -24,7 +24,7 @@ class MainActivity : ComponentActivity() {
             Assignment1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "Android",
+                        name = "Caleb Rivera",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
@@ -37,7 +37,7 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, @Suppress("UNUSED_PARAMETER") modifier: Modifier = Modifier) {
     Surface(color = Color.Magenta) {
         Text(
-            text = "Hello $name!",
+            text = "Hello CEN 4360, my name is $name!",
             modifier = Modifier.padding(30.dp)
         )
     }
